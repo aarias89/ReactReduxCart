@@ -3,6 +3,7 @@ export default function() {
     {
       id: 1,
       name: "Cotton TShirt",
+      quantity: 0,
       style: "MS13KT",
       color: [
         "Red", "Green", "Black"
@@ -12,6 +13,7 @@ export default function() {
     }, {
       id: 2,
       name: "Print Girls Tee",
+      quantity: 0,
       style: "MS13KT",
       color: [
         "Red", "Green", "Black"
@@ -21,6 +23,7 @@ export default function() {
     }, {
       id: 3,
       name: "Flower Pattern Shirt",
+      quantity: 0,
       style: "MS13KT",
       color: [
         "Red", "Green", "Black"
@@ -30,6 +33,7 @@ export default function() {
     }, {
       id: 4,
       name: "Check Pattern Shirt",
+      quantity: 0,
       style: "MS13KT",
       color: [
         "Red", "Green", "Black"

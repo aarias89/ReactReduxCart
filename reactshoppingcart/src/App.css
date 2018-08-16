@@ -22,7 +22,39 @@
   font-size: large;
 }
 
+
+
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.container p{
+  float:left;
+}
+
+.container .col-4 {
+  float: right;
+
+}
+
+.container #promo-code {
+  float: right;
+
+}
+
+.container #checkout-btn{
+  float: right;
+}
+
+#checkout-container {
+  border-top: solid 10px gray ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+#item-detail{
+  float: right;
 }

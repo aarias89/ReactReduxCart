@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ProductList from './containers/product-list';
-import logo from './logo.svg';
+import SelectedItem from './containers/selected-item';
+import Checkout from './components/checkout';
+// import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -10,8 +12,15 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Shopping Cart</h1>
         </header>
-        <ProductList />
-
+        <div className="container">
+          <ProductList />
+        </div>
+        <div className="container">
+          <Checkout />
+        </div>
+        <div className="container">
+          <SelectedItem />
+        </div>
       </div>
     );
   }

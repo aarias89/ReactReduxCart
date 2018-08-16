@@ -1,7 +1,8 @@
 export default function() {
   return [
     {
-      id: 1,
+      id: 0,
+      image:  'https://cdn1.iconfinder.com/data/icons/image-manipulations/100/13-512.png' ,
       name: "Cotton TShirt",
       quantity: 0,
       style: "MS13KT",
@@ -10,8 +11,10 @@ export default function() {
       ],
       price: 11.00,
       size: ["L", "M", "S"]
-    }, {
-      id: 2,
+    },
+    {
+      id: 1,
+      image: 'https://cdn1.iconfinder.com/data/icons/image-manipulations/100/13-512.png',
       name: "Print Girls Tee",
       quantity: 0,
       style: "MS13KT",
@@ -20,8 +23,10 @@ export default function() {
       ],
       price: 17.00,
       size: ["L", "M", "S"]
-    }, {
-      id: 3,
+    },
+    {
+      id: 2,
+      image: 'https://cdn1.iconfinder.com/data/icons/image-manipulations/100/13-512.png',
       name: "Flower Pattern Shirt",
       quantity: 0,
       style: "MS13KT",
@@ -30,8 +35,10 @@ export default function() {
       ],
       price: 9.00,
       size: ["L", "M", "S"]
-    }, {
-      id: 4,
+    },
+    {
+      id: 3,
+      image: 'https://cdn1.iconfinder.com/data/icons/image-manipulations/100/13-512.png',
       name: "Check Pattern Shirt",
       quantity: 0,
       style: "MS13KT",
@@ -43,3 +50,7 @@ export default function() {
     }
   ];
 }
+// [{
+//   "src":"../../public/image-placeholder.jpg",
+//   "alt": "Product Image"
+// }]
